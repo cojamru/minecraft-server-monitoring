@@ -1,6 +1,6 @@
 services:
   minecraft-server-monitoring:
     container_name: minecraft-server-monitoring
-    image: docker pull ghcr.io/cojamru/minecraft-server-monitoring:latest
+    image: ghcr.io/cojamru/minecraft-server-monitoring:latest
     env_file:
       - .env
