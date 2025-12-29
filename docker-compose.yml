@@ -2,5 +2,6 @@ services:
   minecraft-server-monitoring:
     container_name: minecraft-server-monitoring
     image: ghcr.io/cojamru/minecraft-server-monitoring:latest
+    restart: unless-stopped
     env_file:
       - .env
