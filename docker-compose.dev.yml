@@ -1,0 +1,6 @@
+services:
+  minecraft-server-monitoring:
+    container_name: minecraft-server-monitoring
+    build: .
+    env_file:
+      - .env
